@@ -1,0 +1,23 @@
+{
+  "name": "noteszipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narendra539804/NotesZipper.git"
+  },
+  "author": "Narendra Naidu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narendra539804/NotesZipper/issues"
+  },
+  "homepage": "https://github.com/narendra539804/NotesZipper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
