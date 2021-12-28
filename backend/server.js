@@ -9,5 +9,5 @@ const app = express();
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, (err, data) => {
-  console.log("Server is running");
+  console.log("Server is running", PORT);
 });
