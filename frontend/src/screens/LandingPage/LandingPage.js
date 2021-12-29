@@ -14,18 +14,18 @@ const LandingPage = () => {
             </div>
             <div className="buttonContainer">
               <a href="/login">
-                <Button size="lg" style={{ width: 200, height: 55 }}>
+                <button size="lg" style={{ width: 200, height: 55 }}>
                   Login
-                </Button>
+                </button>
               </a>
               <a href="/register">
-                <Button
+                <button
                   variant="outline-primary"
                   size="lg"
                   style={{ width: 200, height: 55 }}
                 >
                   Signup
-                </Button>
+                </button>
               </a>
             </div>
           </div>
